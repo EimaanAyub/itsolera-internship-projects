@@ -8,26 +8,30 @@ The internship focused on Natural Language Processing (NLP) and Machine Learning
 ## Projects
 
 ### 1. Appointment System
-- Designed and implemented an appointment scheduling system with text processing and automation features.  
-- Developed intent recognition to make scheduling faster and more efficient.  
+- Implemented a text-based appointment system with intent recognition and automation features.  
+- Used NLP techniques to identify scheduling intents and streamline the booking process.  
 
-### 2. Neural Machine Translation for Low-Resource Languages
-- Built a translation model for Roman Urdu to English.  
-- Applied sequence-to-sequence architecture with attention mechanisms to handle linguistic complexity.  
-- Addressed challenges of low-resource data with preprocessing and augmentation techniques.  
+### 2. Neural Machine Translation (NMT) for Low-Resource Languages
+- Developed a Roman Urdu → English translation model.  
+- Used a T5-based Seq2Seq architecture with attention to handle linguistic complexity.  
+- Addressed data scarcity by leveraging Hinglish datasets and applying preprocessing/augmentation.  
 
-### 3. Multilingual Translation and Understanding Systems
-- Extended translation capabilities to multiple languages and regional dialects.  
-- Focused on accuracy, contextual understanding, and scalability of translation models.  
+### 3. Multilingual Translation with MBART-50
+- Built a high-accuracy translation system using Hugging Face’s MBART-50 model.  
+- Supports translation across 50 languages and regional dialects.  
+- Focused on scalability and contextual accuracy in multilingual NLP systems.  
 
 ---
 
 ## Tools and Skills
 - Programming: Python  
-- Frameworks: TensorFlow, PyTorch  
-- Concepts: Natural Language Processing, Machine Learning, Neural Machine Translation, Sequence-to-Sequence Models, Attention Mechanisms  
+- Frameworks: PyTorch, Hugging Face Transformers  
+- Concepts: Natural Language Processing, Machine Translation, Sequence-to-Sequence Models, Attention Mechanisms  
 - Tools: Jupyter Notebook, Git/GitHub  
 
 ---
 
-## Repository Structure
+## How to Use
+- Clone the repository  
+- For the appointment system: run `python appointment.py`  
+- For translation projects: open the respective Jupyter notebooks and run the cells  
